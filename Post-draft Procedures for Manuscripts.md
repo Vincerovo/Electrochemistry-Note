@@ -2,15 +2,11 @@
 
 This is a document of procedures that you should do after finish your first edition draft of paper. You can use this as a checklist to finish your manuscript without mess. 
 
-**DOCUMENT INFO**
+
 
 ------
 
-> ***Post-draft Procedures***
->
-> *Zhong F.    FDU*
->
-> *601330948@qq.com*
+> **DOCUMENT INFO**	***Post-draft Procedures***	*Zhong F.    FDU*	*601330948@qq.com*
 >
 > *For Elaina, the majo.*
 
@@ -32,3 +28,8 @@ This is a document of procedures that you should do after finish your first edit
 
 Final Touch
 
+检验上下标
+
+检验拼写
+
+检验图表对应关系
