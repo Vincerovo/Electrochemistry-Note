@@ -86,6 +86,14 @@ $I_0 = \frac{\sigma}{k} \Delta V$
 
 
 
+<img src="D:\Github Repository\Mikoto\迁移数图.PNG" alt="捕获" style="zoom: 50%;" />
+
+迁移数在论文中一个典型的图。（如果图片挂掉了，就在下面这篇文献的支持信息里找Fig.S6）
+
+>Holoubek, J.; Liu, H.; Wu, Z.; Yin, Y.; Xing, X.; Cai, G.; Yu, S.; Zhou, H.; Pascal, T. A.; Chen, Z.; Liu, P. Tailoring Electrolyte Solvation for Li Metal Batteries Cycled at Ultra-Low Temperature. *Nature Energy* **2021**. https://doi.org/10.1038/s41560-021-00783-z.
+
+
+
 **测量真实迁移数的方法**
 
 **Hittorf method**
