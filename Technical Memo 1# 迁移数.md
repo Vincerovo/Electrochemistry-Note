@@ -4,7 +4,9 @@
 
 Theme: **离子迁移数**（Transport and transference in battery electrolytes）
 
-Update time: 2021/01/22
+Initial update: 2021/01/22
+
+Update time: 2021/04/27
 
 ------
 
@@ -43,7 +45,7 @@ $I_0 = \frac{\sigma}{k} \Delta V$
 
 **方法**
 
-最常用的是Bruce-Vincent方法，但是它应用的前提条件是稀溶液（完全电离），满足Arrhenius公式：$\sigma_i = \frac{\left|z_i\right|^2 F^2 c_i}{RT} D_i$
+最常用的是Bruce-Vincent方法，但是它应用的前提条件是**稀溶液（完全电离）**，满足Arrhenius公式：$\sigma_i = \frac{\left|z_i\right|^2 F^2 c_i}{RT} D_i$
 
 > More specifically, that the electrolyte obeys the Nernst-Einstein equation, which relates the conductivity (and the electrical mobility) of an ion to its diffusion coefficient.
 >
