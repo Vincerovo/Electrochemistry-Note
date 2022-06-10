@@ -8,8 +8,6 @@ Update time: 2021/02/24
 
 ------
 
-
-
 测量
 
 1、利用循环伏安法测量表观扩散系数
@@ -38,8 +36,6 @@ Or if the solution is at 25 °C:[[2\]](https://en.wikipedia.org/wiki/Randles–S
 
 2、利用EIS测量表观扩散系数
 
-
-
 > https://mp.weixin.qq.com/s/xVDlOVQf_kntaDoGSM7o1g
->
+> 
 > https://en.wikipedia.org/wiki/Randles%E2%80%93Sevcik_equation
