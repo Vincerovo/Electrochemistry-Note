@@ -209,6 +209,12 @@ A(浓差电池)-->|变温OCP|B["v(T)"]-->|解微分方程|C["v(c,T)"]-->|定时�
 
 ### 电动势法
 
+下次再更。
+
+> Bourish A, Dalard F, Deroo D, Armand M B. J Appl Electrochem, 1987,17:625.
+> 
+> Bourish A, Dalard F, Deroo D, Armand M B. J Appl Electrochem, 1990,20:1040.
+
 ### 交流阻抗法
 
 构筑电池：
