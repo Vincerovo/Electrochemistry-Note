@@ -1,5 +1,11 @@
-# Electrochemistry
-For Academic
-Just memos I personally worte during studying electrochemistry
-So the writing format might mb casual, so if you fo\inf anything wrong, please comment or raise a request.
+# Notes about Electrochemistry
+
+Just memos I personally worte during studying electrochemistry.
+
+I wrote content mainly in Chinese, English, and a little bit Japanese. This depends on where I am when writing memo.
+
+Since it is not a formal publication, my writing format might mb casual, so if you fo\inf anything wrong, please comment or raise a request.
+
+DO NOT use this for commercial purpose! And please mark out the source when you cite this.
+
 どうぞよろしくお願いいたします。
