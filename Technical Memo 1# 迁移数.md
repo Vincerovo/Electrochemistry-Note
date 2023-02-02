@@ -104,7 +104,7 @@ $I_0 = \frac{\sigma}{k} \Delta V$
 
 注：利用实际上测定的是Bruce和Vincent称为"limiting current fraction"的参数 *F~+~*，该参数是否有意义仍在讨论。
 
-<img src="D:\Github Repository\Mikoto\迁移数图.PNG" alt="捕获" style="zoom: 50%;" />
+***[Photo here] Fig.S6** in  **https://doi.org/10.1038/s41560-021-00783-z***
 
 迁移数在论文中一个典型的图。（如果图片挂掉了，就在下面这篇文献的支持信息里找Fig.S6）
 

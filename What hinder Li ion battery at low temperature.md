@@ -8,7 +8,6 @@
 >
 > *601330948@qq.com*
 >
-> *For Misaka Makoto, the electro-master; the Lv.5; the electric queen.*
 
 ------
 

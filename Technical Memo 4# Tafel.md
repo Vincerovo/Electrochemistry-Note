@@ -6,6 +6,8 @@ Theme: Tafel Plot in Electrolyte research
 
 Update time: 2021/03/08
 
+Last update: 20230202
+
 ------
 
 典型的Tafel曲线及解释
@@ -28,7 +30,7 @@ Fig.3h
 
 **case 2：**
 
-<img src="https://onlinelibrary.wiley.com/cms/asset/8a3c8262-6dd0-4eb1-b7f0-d075a3db76a5/adfm202001285-fig-0005-m.jpg" alt="image" style="zoom: 25%;" />
+![](https://onlinelibrary.wiley.com/cms/asset/1aca09b3-a545-4a20-af19-beb91c64bd08/adfm202001285-fig-0005-m.jpg)
 
 Fig.5d
 
@@ -61,7 +63,7 @@ Fig.3a
 
 **case 4：**
 
-<img src="D:\Github Repository\Mikoto\Technical Memo 4# figure.PNG" alt="Technical Memo 4# figure" style="zoom: 80%;" />
+***[Photo here] Fig.4 in https://iopscience.iop.org/article/10.1149/1.1391633***
 
 Fig.4a
 
