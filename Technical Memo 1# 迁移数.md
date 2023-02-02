@@ -1,8 +1,10 @@
-# Technical Memo 1#
+# Technical Memo 1# Transport Properties
 
 ------
 
-Theme: **离子迁移数**（Transport and transference in battery electrolytes）
+Theme: Transport and transference in battery electrolytes
+
+元テーマ：离子迁移数と扩散系数
 
 Initial update: 2021/01/22
 
@@ -13,6 +15,8 @@ Update time: 2023/02/02 - ver. 4.1
 ------
 
 [TOC]
+
+# Li transference number
 
 ## 1   原理
 
@@ -34,7 +38,7 @@ $I_0 = \frac{\sigma}{k} \Delta V$
 
 此时电流$I_{ss}$为：$I_{ss} = \frac{t_+ \sigma}{k} \Delta V$
 
-易得：[$t_+ = \frac{I_{ss}}{I_0}$]() （理想情况，忽略界面电阻，电解质完全解离。）
+易得：$t_+ = \frac{I_{ss}}{I_0}$（理想情况，忽略界面电阻，电解质完全解离。）
 
 <img src="http://lacey.se/img/science/transportnumber5.png" alt="Current flow during polarisation of a symmetrical cell" style="zoom:25%;" />
 
@@ -588,3 +592,39 @@ c——盐浓度
 > Dai H, Zawodzinski T A. J Electrochem Soc, 1998,143459: 111
 
 > Quantifying Mass Transport during Polarization in a Li Ion Battery Electrolyte by in Situ 7Li NMR Imaging. (2021). Retrieved 22 January 2021, from https://pubs.acs.org/doi/10.1021/ja305461j
+
+
+
+# Li diffusion number
+
+## 测量
+
+### 1、利用循环伏安法测量表观扩散系数
+
+依据：Randles-Sevcik方程
+
+$$i_{p}=0.4463\ nFAC\left({\frac {nFvD}{RT}}\right)^{\frac {1}{2}}$$
+
+Or if the solution is at 25 °C:[[2\]](https://en.wikipedia.org/wiki/Randles–Sevcik_equation#cite_note-2)
+
+可逆体系：$$i_{p}=(2.69\times 10^{5})n^{\frac{3}{2}}AD^{\frac {1}{2}}Cv^{\frac{1}{2}}$$
+
+不可逆体系：$$i_{p}=(2.99\times 10^{5})n(\alpha n_\alpha) ^{\frac{1}{2}}AD^{\frac {1}{2}}Cv^{\frac{1}{2}}$$
+
+- *i~p~* = current maximum in amps
+- *n* = 转移电子数 number of electrons transferred in the redox event (usually 1)
+- *n$_\alpha$* = 速控步的反应电子数，近似处理时，*n$_\alpha$=n*
+- *A* = 电极面积 electrode area in cm2
+- *F* = [Faraday Constant](https://en.wikipedia.org/wiki/Faraday_constant) in C mol−1
+- *D* = diffusion coefficient in cm2/s
+- *$\alpha$* = 交换系数，对于完全不可逆，$\alpha$=0.5
+- *C* = 锂离子浓度 concentration in mol/cm3
+- *ν* = 扫速 scan rate in V/s
+- *R* = [Gas constant](https://en.wikipedia.org/wiki/Gas_constant) in J K−1 mol−1
+- *T* = temperature in K
+
+### 2、利用EIS测量表观扩散系数
+
+> https://mp.weixin.qq.com/s/xVDlOVQf_kntaDoGSM7o1g
+>
+> https://en.wikipedia.org/wiki/Randles%E2%80%93Sevcik_equation
