@@ -9,3 +9,5 @@ Since it is not a formal publication, my writing format might mb casual, so if y
 DO NOT use this for commercial purpose! And please mark out the source when you cite this.
 
 どうぞよろしくお願いいたします。
+
+2023/02/02
