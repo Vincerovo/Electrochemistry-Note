@@ -12,6 +12,8 @@ Update time: 2023/02/02 - ver. 4.1
 
 *Zhong F.    U.Tokyo     601330948@qq.com*
 
+*please allow *Inline Math* in your editor for more fluent readability.
+
 ------
 
 [TOC]
