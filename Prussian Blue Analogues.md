@@ -3,9 +3,6 @@
 ------
 
 > *DOC INFO*: 	***普鲁士蓝类似物***	*2021/02/19*	*Zhong F.    FDU*	*601330948@qq.com*
->
-> *For Misaka Makoto, the electro-master; the Lv.5; the electric queen.*
-
 ------
 
 
