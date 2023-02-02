@@ -6,13 +6,15 @@ Theme: **离子迁移数**（Transport and transference in battery electrolytes�
 
 Initial update: 2021/01/22
 
-Update time: 2022/06/09 - 4th rev.
+Update time: 2023/02/02 - ver. 4.1
 
-*Zhong F.    FDU     601330948@qq.com*
+*Zhong F.    U.Tokyo     601330948@qq.com*
 
 ------
 
-**原理**
+[TOC]
+
+## 1   原理
 
 迁移数：  $t_+\overset{def}{=}\frac{I_+}{I}$
 
@@ -45,7 +47,9 @@ $I_0 = \frac{\sigma}{k} \Delta V$
 
 ------
 
-## 方法
+
+
+## 2   方法
 
 关于迁移数的测量方法，主要可以分为以下几种方法：
 
@@ -64,6 +68,8 @@ $I_0 = \frac{\sigma}{k} \Delta V$
   - PFG-NMR
   
   - E-NMR
+
+---
 
 ### Bruce-Vincent方法
 
@@ -142,6 +148,8 @@ $t_{+,SS} = \frac{i_{SS}(\Delta V-i_\Omega R_{i,0})}{i_\Omega(\Delta V-i_{SS} R_
 
 **测量真实迁移数的方法**
 
+---
+
 ### Tubandt方法 (Hittorf method）
 
 一定量的电荷通过电池，电解质被分为四部分。在聚合物电解质中更容易实现。需要装Hittorf电池。标准的Hittorf池子是四盐桥池。
@@ -207,6 +215,8 @@ A(浓差电池)-->|变温OCP|B["v(T)"]-->|解微分方程|C["v(c,T)"]-->|定时�
 
 > Journal of The Electrochemical Society, 152 (5) A882-A891 (2005)
 
+---
+
 ### 电动势法
 
 下次再更。
@@ -214,6 +224,8 @@ A(浓差电池)-->|变温OCP|B["v(T)"]-->|解微分方程|C["v(c,T)"]-->|定时�
 > Bourish A, Dalard F, Deroo D, Armand M B. J Appl Electrochem, 1987,17:625.
 > 
 > Bourish A, Dalard F, Deroo D, Armand M B. J Appl Electrochem, 1990,20:1040.
+
+---
 
 ### 交流阻抗法
 
@@ -311,7 +323,9 @@ Ds ——盐的扩散系数 salt diffusion coefficient
 > 
 > 次要ref：Macdonald, J. R. Simplified Impedance/Frequency‐response Results for Intrinsically Conducting Solids and Liquids. *J. Chem. Phys.* **1974**, *61* (10), 3977–3996. https://doi.org/10.1063/1.1681691.
 
-### Doyle-Newman方法
+---
+
+### Doyle-Newman方法 (==Full characterization of eletrolyte transfer properties==)
 
 Doyle-Newman方法及Newman方法（John Newman，yyds），是complete characterization of transport properties的核心。其是测定t+的**准确**方法，不依赖任何理想条件假设。
 
@@ -514,6 +528,8 @@ M-->|"解关于v(T)的微分方程"|N["v(t)"]-->|"Taylor展开"|O["v(c,t)"]-->|"
 #### 6. 关于误差
 
 此处应有误差分析...（但我懒，先不写了）
+
+---
 
 ### NMR方法
 
