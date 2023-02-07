@@ -2,7 +2,7 @@ Basic of EIS
 
 ------
 
-> *DOC INFO*: 电化学阻抗谱 (basic of EIS)		*2021/03/10*	*Last update: 2023/02/02*	*Zhong F.    FDU*	*601330948@qq.com*
+> *DOC INFO*: 电化学阻抗谱 (basic of EIS)		*2021/03/10*	*Last update: 2023/02/02*	*Zhong F.    U.Tokyo*	*601330948@qq.com*
 >
 > **Thank you, Matt Lacey, yyds!*
 

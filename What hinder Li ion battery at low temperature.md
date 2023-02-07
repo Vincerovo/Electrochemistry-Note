@@ -4,7 +4,7 @@
 
 > ***What hinder Li ion battery at low temperature?*** 
 >
-> *Zhong F.    FDU*
+> *Zhong F.    U.Tokyo*
 >
 > *601330948@qq.com*
 >
