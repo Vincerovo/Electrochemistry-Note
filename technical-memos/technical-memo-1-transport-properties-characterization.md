@@ -1,24 +1,36 @@
+---
+description: This is a page description
+---
+
 # Technical Memo 1# Transport properties characterization
 
 ## Technical Memo 1# Transport Properties
 
-***
-
+{% hint style="success" %}
 Theme: Transport and transference in battery electrolytes
 
 元テーマ：离子迁移数と扩散系数
 
 Initial update: 2021/01/22
 
-Update time: 2023/02/02 - ver. 4.1
+Update time: 2023/02/02 - ver. 4.2
 
 _Zhong F. U.Tokyo 601330948@qq.com_
+{% endhint %}
 
-\*please allow _Inline Math_ in your editor for more fluent readability.
-
-***
+{% hint style="info" %}
+please allow _Inline Math_ in your editor for more fluent readability.
+{% endhint %}
 
 \[TOC]
+
+<details>
+
+<summary>expandables</summary>
+
+content
+
+</details>
 
 ## Li transference number
 
@@ -31,6 +43,8 @@ _Zhong F. U.Tokyo 601330948@qq.com_
 **离子电导率的反映的是电解质中各种离子迁移能力的总和，而离子迁移数则是对电解质中某一种离子迁移能力的量度。**
 
 假设一完美的体系，电流流动初始取决于电池的电导与电压差
+
+$$I_0 = \frac{\sigma}{k} \Delta V$$
 
 $I\_0 = \frac{\sigma}{k} \Delta V$
 
