@@ -36,7 +36,7 @@ content
 
 ### 1 原理
 
-迁移数：  $t\_+\overset{def}{=}\frac{I\_+}{I}$
+迁移数：  $$t_+\overset{def}{=}\frac{I_+}{I}$$
 
 其中，I+表示阳离子的迁移电流。I为总电流。需要注意的是，此定义使用与电解质中离子间不形成离子聚集体的情况。
 
@@ -46,17 +46,15 @@ content
 
 $$I_0 = \frac{\sigma}{k} \Delta V$$
 
-$I\_0 = \frac{\sigma}{k} \Delta V$
-
-其中 $k=\frac{I}{S}$ (长度/面积）
+其中 $$k=\frac{I}{S}$$ (长度/面积）
 
 施加一个很小的电压时（<10mV），达到稳态时，溶液浓度梯度不随时间变化。阳离子的电迁移正好被扩散所平衡
 
 ![Steady state current flow in a symmetrical cell](http://lacey.se/img/science/transportnumber3.png)
 
-此时电流$I\_{ss}$为：$I\_{ss} = \frac{t\_+ \sigma}{k} \Delta V$
+此时电流$$I_{ss}$$为：$$I_{ss} = \frac{t_+ \sigma}{k} \Delta V$$
 
-易得：$t\_+ = \frac{I\_{ss\}}{I\_0}$（理想情况，忽略界面电阻，电解质完全解离。）
+易得：$$t_+ = \frac{I_{ss}}{I_0}$$（理想情况，忽略界面电阻，电解质完全解离。）
 
 ![Current flow during polarisation of a symmetrical cell](http://lacey.se/img/science/transportnumber5.png)
 
@@ -86,7 +84,7 @@ $I\_0 = \frac{\sigma}{k} \Delta V$
 
 #### Bruce-Vincent方法
 
-最常用的是Bruce-Vincent方法，但是它应用的前提条件是**稀溶液（完全电离）**，满足Arrhenius公式：$\sigma\_i = \frac{\left|z\_i\right|^2 F^2 c\_i}{RT} D\_i$
+最常用的是Bruce-Vincent方法，但是它应用的前提条件是**稀溶液（完全电离）**，满足Arrhenius公式：$$\sigma_i = \frac{\left|z_i\right|^2 F^2 c_i}{RT} D_i$$
 
 > More specifically, that the electrolyte obeys the Nernst-Einstein equation, which relates the conductivity (and the electrical mobility) of an ion to its diffusion coefficient.
 >
@@ -103,7 +101,7 @@ $I\_0 = \frac{\sigma}{k} \Delta V$
 
 其中Rs为电解质的离子阻抗（ionic resistance of electrolyte），Rp为界面电阻。
 
-此时，初始电流为 $I\_0 = \frac{\Delta V}{k/\sigma + R\_{p,0\}}$，稳态电流为 $I\_{ss} = \frac{\Delta V}{k/t\_+ \sigma + R\_{p,ss\}}$；利用$\sigma$相等换算公式为 $t\_+ = \frac{I\_{ss}\left(\Delta V - I\_0 R\_{p,0}\right)}{I\_0 \left(\Delta V - I\_{ss} R\_{p,ss}\right)}$。这就是**Bruce-Vincent Equation**。
+此时，初始电流为 $$I_0 = \frac{\Delta V}{k/\sigma + R_{p,0}}$$，稳态电流为 $$I_{ss} = \frac{\Delta V}{k/t_+ \sigma + R_{p,ss}}$$；利用$\sigma$相等换算公式为 $$t_+ = \frac{I_{ss}\left(\Delta V - I_0 R_{p,0}\right)}{I_0 \left(\Delta V - I_{ss} R_{p,ss}\right)}$$。这就是**Bruce-Vincent Equation**。
 
 > **Ref**
 >
@@ -111,13 +109,13 @@ $I\_0 = \frac{\sigma}{k} \Delta V$
 > 2. Bruce, P., & Vincent, C. (1987). Steady state current flow in solid binary electrolyte cells. Journal Of Electroanalytical Chemistry And Interfacial Electrochemistry, 225(1-2), 1-17. doi: 10.1016/0022-0728(87)80001-3
 > 3. Lacey, M. (2021). Transport and transference in battery electrolytes. Retrieved 22 January 2021, from http://lacey.se/science/transference/
 
-对于不能完全解离的电解质，存在诸如\[LiX]的中性对，抑或是\[Li~~2~~X]^+^或\[LiX~~2~~]^-^，先不论这些物质是否真实存在，移动一个正电荷带了两个Li^+^，所以，这些物质拥有他们自己的 t^+^，
+对于不能完全解离的电解质，存在诸如\[LiX]的中性对，抑或是\[Li<sub>2</sub>X]<sup>+</sup>或\[LiX<sub>2</sub>]<sup>-</sup>，先不论这些物质是否真实存在，移动一个正电荷带了两个Li<sup>+</sup>，所以，这些物质拥有他们自己的 t<sup>+</sup>，
 
 对于此类体系，要区分 _transference number_ （后文用 T）和 _transport number_（后文用t）。前者是指移动单位法拉电荷所需要的锂离子摩尔数。
 
-> The _transference number_ for lithium, for example, is defined as the **number of moles of lithium transferred **_**by migration**_** per Faraday of charge**
+> The _transference number_ for lithium, for example, is defined as the **number of moles of lithium transferred&#x20;**_**by migration**_**&#x20;per Faraday of charge**
 
-对于上述体系中，它们的关系为 $T\_+ = t\_{\text{Li}^+} + 2t\_{\[\text{Li}_2\text{X}]^+} - t_{\[\text{LiX}\_2]^-}$，其表述所有含锂物种在电解液中迁移的净transference。在理想体系中，没有ion association，_T^+^_ = _t^+^_。
+对于上述体系中，它们的关系为 $$T_+ = t_{\text{Li}^+} + 2t_{[\text{Li}2\text{X}]^+} - t{[\text{LiX}_2]^-}$$，其表述所有含锂物种在电解液中迁移的净transference。在理想体系中，没有ion association，_T_<sup><sub>_+_<sub></sup> = _t_<sup>_+_</sup> 。
 
 同样，T^+^+T^−^=1。值得一提的是T^+^或T^−^<0的过程理论上也存在。中性的\[LiX]的扩散没有考虑在T^+^之中，但是其仍会扩散至低浓度区域。
 
@@ -141,19 +139,19 @@ _**\[Photo here] Fig.S6** in **https://doi.org/10.1038/s41560-021-00783-z**_
 
 为了修正这一误差，可以采用$I\_\Omega$ 去代替$I\_0$ 。
 
-$I\_\Omega = \frac{\Delta V}{R\_{i,0}+R\_{b,0\}}$
+$$I_\Omega = \frac{\Delta V}{R_{i,0}+R_{b,0}}$$
 
-transference number obtained using steady-state current method ($t\_{+,SS}$)为：
+transference number obtained using steady-state current method (\$$t\_{+,SS}\$$)为：
 
-$t\_{+,SS} = \frac{i\_{SS}(\Delta V-i\_\Omega R\_{i,0})}{i\_\Omega(\Delta V-i\_{SS} R\_{i,SS})}$
+$$t_{+,SS} = \frac{i_{SS}(\Delta V-i_\Omega R_{i,0})}{i_\Omega(\Delta V-i_{SS} R_{i,SS})}$$
 
-其中，${R\_{i,0}, R\_{b,0\}}$ 分别代表电池的 initial interfacial resistance ($\Omega \ cm^2$)和initial bulk resistance ($\Omega \ cm^2$)；${R\_{i,SS}, R\_{b,SS\}}$ 分别代表电池的steady-state interfacial resistance ($\Omega \ cm^2$)和steady-state bulk resistance ($\Omega \ cm^2$)
+其中，$${R_{i,0}, R_{b,0}}$$ 分别代表电池的 initial interfacial resistance ($$\Omega \ cm^2$$)和initial bulk resistance ($$\Omega \ cm^2$$)；$${R_{i,SS}, R_{b,SS}}$$ 分别代表电池的steady-state interfacial resistance ($$\Omega \ cm^2$$)和steady-state bulk resistance ($$\Omega \ cm^2$$)
 
-一个典型的steady-state current experiment实验的弛豫时间为4h，极化$\Delta V = 10 mV,-10mV \ and\ 20 mV,-20mV$，多组极化的目的是为了确保离子传输特性与极化的正负号与大小无关。同时，每隔20min测一次EIS，微扰为10mV来最小化EIS测试对极化信号的干扰。
+一个典型的steady-state current experiment实验的弛豫时间为4h，极化$$\Delta V = 10 mV,-10mV \ and\ 20 mV,-20mV$$，多组极化的目的是为了确保离子传输特性与极化的正负号与大小无关。同时，每隔20min测一次EIS，微扰为10mV来最小化EIS测试对极化信号的干扰。
 
 【注意】对称电池Pre-condition可以进一步排除表面对实验结果的影响。典型protocol为：0.02 mA/cm2电流密度，跑5个 charge/discharge cycles来得到稳定的界面。每一圈包括：4 h charge，45 min rest，4 h discharge。
 
-【注意】$\frac{i\_{SS}(\Delta V-i\_\Omega R\_{i,0})}{i\_\Omega(\Delta V-i\_{SS} R\_{i,SS})}$也被称为 Steady-state cation current fraction (ρ+) ，即$t\_{+,SS}=\rho\_+$ (REF: Journal of The Electrochemical Society, 2022 169 020538)
+【注意】$$\frac{i_{SS}(\Delta V-i_\Omega R_{i,0})}{i_\Omega(\Delta V-i_{SS} R_{i,SS})}$$也被称为 Steady-state cation current fraction (ρ+) ，即$$t_{+,SS}=\rho_+$$ (REF: Journal of The Electrochemical Society, 2022 169 020538)&#x20;
 
 > 1. Journal of The Electrochemical Society, 2022 169 020538
 > 2. Danielle M. Pesko et al. Negative Transference Numbers in Poly(ethylene oxide)-Based Electrolytes, **2017**, J. Electrochem. Soc.164, E3569
@@ -601,7 +599,7 @@ c——盐浓度
 
 $$i_{p}=0.4463\ nFAC\left({\frac {nFvD}{RT}}\right)^{\frac {1}{2}}$$
 
-Or if the solution is at 25 °C:\[[2\]](https://en.wikipedia.org/wiki/Randles%E2%80%93Sevcik\_equation#cite\_note-2)
+Or if the solution is at 25 °C:\[[2\]](https://en.wikipedia.org/wiki/Randles%E2%80%93Sevcik_equation#cite_note-2)
 
 可逆体系：$$i_{p}=(2.69\times 10^{5})n^{\frac{3}{2}}AD^{\frac {1}{2}}Cv^{\frac{1}{2}}$$
 
@@ -611,12 +609,12 @@ Or if the solution is at 25 °C:\[[2\]](https://en.wikipedia.org/wiki/Randles%E2
 * _n_ = 转移电子数 number of electrons transferred in the redox event (usually 1)
 * _n$\_\alpha$_ = 速控步的反应电子数，近似处理时，_n$\_\alpha$=n_
 * _A_ = 电极面积 electrode area in cm2
-* _F_ = [Faraday Constant](https://en.wikipedia.org/wiki/Faraday\_constant) in C mol−1
+* _F_ = [Faraday Constant](https://en.wikipedia.org/wiki/Faraday_constant) in C mol−1
 * _D_ = diffusion coefficient in cm2/s
 * _$\alpha$_ = 交换系数，对于完全不可逆，$\alpha$=0.5
 * _C_ = 锂离子浓度 concentration in mol/cm3
 * _ν_ = 扫速 scan rate in V/s
-* _R_ = [Gas constant](https://en.wikipedia.org/wiki/Gas\_constant) in J K−1 mol−1
+* _R_ = [Gas constant](https://en.wikipedia.org/wiki/Gas_constant) in J K−1 mol−1
 * _T_ = temperature in K
 
 #### 2、利用EIS测量表观扩散系数
